@@ -10,5 +10,7 @@ def aboutUs (request):
 def contactUs (request):
     return render(request, "contact.html")
 
-# def forPage (request):
-#     return render (request)
+def forPage (request):
+    return render (request)
+
+
