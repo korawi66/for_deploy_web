@@ -25,7 +25,7 @@
   <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
       <!-- Navbar Brand-->
-      <a class="navbar-brand ps-3" href="{% url 'index' %}">korawi</a>
+      <a class="navbar-brand ps-3" href="{% url 'index' %}">korawi Shop</a>
       <!-- Sidebar Toggle-->
       <button
         class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
@@ -93,16 +93,23 @@
                 </div>
                 ประวัติ
               </a>
-              <a class="nav-link" href="{% url 'about' %}">
+              <a class="nav-link" href="{% url 'for-page' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                หน้าทดสอบ
+              </a>
+              <a class="nav-link" href="{% url 'card-page' %}">
+                <div class="sb-nav-link-icon">
+                  <i class="fas fa-tachometer-alt"></i>
+                </div>
+                สินค้า
+              </a>
+              <a class="nav-link" href="{% url 'color-page' %}">
                 <div class="sb-nav-link-icon">
                   <i class="fas fa-tachometer-alt"></i>
                 </div>
                 การ์ดสี
-                <a class="nav-link" href="{% url 'about' %}">
-                  <div class="sb-nav-link-icon">
-                    <i class="fas fa-tachometer-alt"></i>
-                  </div>
-                  สินค้า
               </a>
             </div>
           </div>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+<!---->
+{% block contant %}
+<div class="row">
+  {% for i in list %}
+  <div class="col-md-4 mb-4">
+    <div class="card" style="width: 100%">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF1IwK6-SxM83UpFVY6WtUZxXx-phss_gAUfdKbkTfau6VWVkt"
+        class="card-img-top"
+        alt="..."
+      />
+      <div class="card-body">
+        <h5 class="card-title">แมวสม</h5>
+        <p class="card-text">ราคา2ตัว 100.</p>
+        <a href="#" class="btn btn-primary">สั่งสินค้า</a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock contant %}
